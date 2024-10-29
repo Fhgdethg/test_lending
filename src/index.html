@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplebar/5.3.6/simplebar.css" />
+		<link rel="stylesheet" href="css/style.min.css" />
+		<title>Test</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container header__container animate__animated animate__fadeInUp">
+				<a href="/">
+					<img src="./img/logo.svg" alt="Logo" class="logo header__logo">
+				</a>
+				<nav class="nav">
+					<div class="menu-link">
+						<p>
+							Projects
+						</p>
+						<svg class="icon" width="7" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.8" d="M6.13313 0L7.2998 1.25L3.7998 5L0.299805 1.25L1.46647 0L3.7998 2.49994L6.13313 0Z" fill="white"/>
+						</svg>
+						<div class="menu-link__dropdown animate__animated">
+							<a href="#">Project 1</a>
+							<a href="#">Project 2</a>
+							<a href="#">Project 3</a>
+						</div>
+					</div>
+					<a href="" class="nav_link">
+						About company
+					</a>
+					<a href="" class="nav_link">
+						Cooperation
+					</a>
+					<a href="" class="nav_link">
+						Contact us
+					</a>
+				</nav>
+				<div class="lang-select__wrp">
+					<div class="lang-select">
+						<p class="lang-select__title">
+							EN
+						</p>
+					</div>
+					<div class="lang-select__dropdown animate__animated">
+						<div class="lang-select">
+							<p class="lang-select__title">
+								UA
+							</p>
+						</div>
+						<div class="lang-select">
+							<p class="lang-select__title">
+								FR
+							</p>
+						</div>
+						<div class="lang-select">
+							<p class="lang-select__title">
+								DU
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="desktop">
+				<img src="./img/desktop_house.png" alt="House" class="desktop__img">
+				<div class="desktop__info-wrp animate__animated">
+					<div class="container desktop__info">
+						<div class="desktop__info-left">
+							<p class="desktop__info-left-subtitle">Lorem Ipsum is simply dummy text of the printing</p>
+							<h2 class="desktop__info-left-title">Company Name</h2>
+						</div>
+						<div class="desktop__info-right">
+							<p class="desktop__info-right-description">Lorem Ipsum is simply dummy text of the printing <span>and typesetting</span> industry.</p>
+							<button class="btn desktop__info-right-btn">
+								Select property
+							</button>
+						</div>
+					</div>
+				</div>
+				<img src="./img/intersect.png" alt="Phone" class="desktop__intersect">
+			</section>
+			<section class="slider-section">
+				<h1 class="main-title">Our projects</h1>
+				<div #swiperRef="" class="swiper slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide">
+							<img src="./img/slide_1.png" alt="House" class="slide__img">
+							<div class="slide__inner">
+								<div class=slide__inner-texts"">
+									<p class="slide__inner-subtitle">Villa</p>
+									<p class="slide__inner-title">Lorem Ipsum</p>
+								</div>
+								<div class="swiper-button-next inner-slider-button"></div>
+							</div>
+						</div>
+						<div class="swiper-slide slide">
+							<img src="./img/slide_2.png" alt="House" class="slide__img">
+							<div class="slide__inner">
+								<div class=slide__inner-texts"">
+									<p class="slide__inner-subtitle">Villa</p>
+									<p class="slide__inner-title">Lorem Ipsum</p>
+								</div>
+								<div class="swiper-button-next inner-slider-button"></div>
+							</div>
+						</div>
+						<div class="swiper-slide slide">
+							<img src="./img/slide_1.png" alt="House" class="slide__img">
+							<div class="slide__inner">
+								<div class=slide__inner-texts"">
+									<p class="slide__inner-subtitle">Villa</p>
+									<p class="slide__inner-title">Lorem Ipsum</p>
+								</div>
+								<div class="swiper-button-next inner-slider-button"></div>
+							</div>
+						</div>
+					</div>
+					<div class="slider__outer-slider-buttons-wrp">
+						<div class="swiper-button-prev outer-slider-button"></div>
+						<div class="swiper-button-next outer-slider-button"></div>
+					</div>
+				</div>
+				<p class="slider-section__description">
+					<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.
+				</p>
+				<img class="slider-section__fone" src="./img/bottom_fone.png" alt="Decoration">
+			</section>
+			<section class="bottom-section">
+				<h2>More than 10 years</h2>
+				<img class="bottom-section__desktop" src="./img/bottom_home.png" alt="House">
+			</section>
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/dropdownMenus.js"></script>
+		<script src="js/langSettings.js"></script>
+		<script src="js/startAnimations.js"></script>
+	</body>
+</html>
